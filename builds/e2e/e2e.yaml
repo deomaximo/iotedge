@@ -76,7 +76,8 @@ jobs:
       demands:	
         - Agent.OS -equals Linux	
         - Agent.OSArchitecture -equals X64	
-        - run-new-e2e-tests -equals true	
+        - run-new-e2e-tests -equals true
+        - centos -equals 7
 
     variables:	
       os: linux	
